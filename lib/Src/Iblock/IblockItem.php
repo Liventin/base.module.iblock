@@ -24,6 +24,11 @@ class IblockItem implements IIblockItem
     ) {
     }
 
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
     /**
      * @return Query
      * @throws ModuleException
